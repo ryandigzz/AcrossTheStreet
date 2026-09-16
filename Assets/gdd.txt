@@ -1,0 +1,99 @@
+
+1
+
+Automatic Zoom
+Across the Street – Game Design Document
+(MVP)m
+
+1. Game Overview
+
+Across the Street is a first-person spy observation game set during a Cold War–inspired conflict.
+The player is an undercover American operative stationed in an apartment directly across from a
+low-profile foreign embassy. The core experience revolves around watching, interpreting subtle
+behaviors, and delivering intelligence without being discovered.
+
+2. Core Design Pillars
+•
+ Observation over action
+•
+ Tension through uncertainty
+•
+ Minimal UI, strong atmosphere
+•
+ Player interpretation drives outcomes
+
+3. Core Gameplay Loop (MVP)
+•
+ Observe the embassy through apartment windows
+•
+ Identify suspicious behavior or individuals
+•
+ Record or mark intel
+•
+ Deliver intel via hidden floorboard
+•
+ Receive consequences the next day
+
+4. Setting & Narrative
+
+The game takes place in a foreign city under political tension. The player is new to the operation
+and receives minimal guidance. Instructions arrive anonymously via notes slipped under the door.
+The player never meets their handler and is never told the full purpose of the mission.
+
+5. Player Character
+
+An American intelligence operative with limited field experience. Recently deployed and isolated.
+Motivation is unclear, reinforcing paranoia and uncertainty. The character never speaks; all identity
+is implied through actions.
+
+6. Gameplay Systems (MVP Scope)
+
+Observation System
+• Two apartment windows
+• Zoom and pan functionality
+• Embassy windows with timed states (lights, silhouettes, meetings)
+
+Target System
+• One daily objective provided via note
+• One correct target per day
+• Multiple decoy behaviors
+Intel Collection
+• Mark windows or characters
+• Preset notes instead of free text
+
+Intel Delivery
+• Hidden floorboard outside apartment
+• One delivery opportunity per day
+
+Consequences
+• Correct intel builds trust
+• Incorrect intel increases suspicion
+• Embassy behavior subtly changes
+
+7. User Interface (MVP)
+•
+ Binocular overlay
+•
+ Simple notebook or clipboard UI
+•
+ Daily instruction note UI
+•
+ Minimal interaction prompts
+
+8. Minimum Viable Product Definition
+
+The MVP consists of a single apartment, a single embassy building, and three in-game days. The
+player must successfully observe, interpret, and report information. Total playtime target: 15–30
+minutes. If the core loop creates tension and uncertainty, the MVP is considered successful.
+
+9. Development Priorities
+•
+ Window observation mechanics
+•
+ Embassy window state system
+•
+ Daily note generation
+•
+ Intel delivery interaction
+•
+ Basic consequence feedback
